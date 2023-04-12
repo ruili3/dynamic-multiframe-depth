@@ -1,5 +1,5 @@
 # Dynamic-multiframe-depth
-[**Paper**]() |  [**Video** ]() 
+<!-- [**Paper**]() |  [**Video** ]()  -->
 <!-- | [**Video** (Reconstruction)](https://youtu.be/-gDSBIm0vgk) | [**Project Page**](https://vision.in.tum.de/research/monorec) -->
 
 This repository is the official implementation of the paper:
@@ -13,7 +13,7 @@ This repository is the official implementation of the paper:
 <!-- <a href="https://youtu.be/-gDSBIm0vgk"><div style="text-align:center"><img src="./pictures/frames_pointcloud.gif" style="height:auto;width:70%px"/></div></a> -->
 
 
-![](pictures\dynamic_depth_result.gif)
+![](./pictures/dynamic_depth_result.gif)
 
 
 If you find our work useful, please consider citing our paper:
