@@ -26,7 +26,7 @@ If you use any content of this repo for your work, please cite the following our
 ## Introduction
 ...
 
-<div align="center">
+<div align="left">
 <img src="pictures/adam.png" width="95%">
 
 Overview of the proposed network. We first extract multi-frame depth cues with cost volume and monocular depth cues using one-hot depth volume. Then, we fuse the two volumes with the proposed cross-cue fusion module (CCF) to yield an improved fused depth feature. The fused depth feature is sent to the depth module for final depth estimation.
