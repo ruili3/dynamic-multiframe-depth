@@ -2,31 +2,35 @@
 <!-- [**Paper**]() |  [**Video** ]()  -->
 <!-- | [**Video** (Reconstruction)](https://youtu.be/-gDSBIm0vgk) | [**Project Page**](https://vision.in.tum.de/research/monorec) -->
 
-This repository is the official implementation of the paper:
-
+This is the code repository for the paper:
 > **Learning to Fuse Monocular and Multi-view Cues for Multi-frame Depth Estimation in Dynamic Scenes**
 >
 > Rui Li, [Gong Dong](https://donggong1.github.io/index.html), [Yin Wei](https://yvanyin.net/), [Hao Chen](https://stan-haochen.github.io/), Yu Zhu, Kaixuan Wang, Xiaozhi Chen, Jinqiu Sun and Yanning Zhang
 > 
-> [**CVPR 2023** (arXiv)]()
+> CVPR 2023 [[arXiv]()]
 
 <!-- <a href="https://youtu.be/-gDSBIm0vgk"><div style="text-align:center"><img src="./pictures/frames_pointcloud.gif" style="height:auto;width:70%px"/></div></a> -->
 
-
 ![](./pictures/dynamic_depth_result.gif)
 
-
-If you find our work useful, please consider citing our paper:
+If you use any content of this repo for your work, please cite the following our paper:
 ```
 @InProceedings{li2023learning,
   title = {Learning to Fuse Monocular and Multi-view Cues for Multi-frame Depth Estimation in Dynamic Scenes},
   author = {Li, Rui and Gong, Dong and Yin, Wei and Chen, Hao and Zhu, Yu and Wang, Kaixuan and Chen, Xiaozhi and Sun, Jinqiu and Zhang, Yanning},
-  booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year = {2023},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year = {2023}
 }
 ```
 
+## Introduction
+...
 
+<div align="center">
+<img src="pictures/adam.png" width="95%">
+
+Overview of the proposed network. We first extract multi-frame depth cues with cost volume and monocular depth cues using one-hot depth volume. Then, we fuse the two volumes with the proposed cross-cue fusion module (CCF) to yield an improved fused depth feature. The fused depth feature is sent to the depth module for final depth estimation.
+</div>
 
 
 ## Environment Setup
