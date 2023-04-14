@@ -1,6 +1,4 @@
 # Dynamic-multiframe-depth
-<!-- [**Paper**]() |  [**Video** ]()  -->
-<!-- | [**Video** (Reconstruction)](https://youtu.be/-gDSBIm0vgk) | [**Project Page**](https://vision.in.tum.de/research/monorec) -->
 
 This is the code repository for the paper:
 > **Learning to Fuse Monocular and Multi-view Cues for Multi-frame Depth Estimation in Dynamic Scenes**
@@ -8,8 +6,6 @@ This is the code repository for the paper:
 > Rui Li, [Gong Dong](https://donggong1.github.io/index.html), [Yin Wei](https://yvanyin.net/), [Hao Chen](https://stan-haochen.github.io/), Yu Zhu, Kaixuan Wang, Xiaozhi Chen, Jinqiu Sun and Yanning Zhang
 > 
 > CVPR 2023 [[arXiv]()]
-
-<!-- <a href="https://youtu.be/-gDSBIm0vgk"><div style="text-align:center"><img src="./pictures/frames_pointcloud.gif" style="height:auto;width:70%px"/></div></a> -->
 
 ![](./pictures/dynamic_depth_result.gif)
 
