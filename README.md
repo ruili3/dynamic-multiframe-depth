@@ -20,12 +20,11 @@ If you use any content of this repo for your work, please cite the following our
 ```
 
 ## Introduction
-...
+Multi-frame depth estimation generally achieves high accuracy relying on the multi-view geometric consistency. When applied in dynamic scenes, e.g., autonomous driving, this consistency is usually violated in the dynamic areas, leading to corrupted estimations. Many multi-frame methods handle dynamic areas by identifying them with explicit masks and compensating the multi-view cues with monocular cues represented as local monocular depth or features. The improvements are limited due to the uncontrolled quality of the masks and the underutilized benefits of the fusion of the two types of cues. In this paper, we propose a novel method to learn to fuse the multi-view and monocular cues encoded as volumes without needing the heuristically crafted masks. As unveiled in our analyses, the multi-view cues capture more accurate geometric information in static areas, and the monocular cues capture more useful contexts in dynamic areas. To let the geometric perception learned from multi-view cues in static areas propagate to the monocular representation in dynamic areas and let monocular cues enhance the representation of multi-view cost volume, we propose a cross-cue fusion (CCF) module, which includes the cross-cue attention (CCA) to encode the spatially non-local relative intra-relations from each source to enhance the representation of the other. Experiments on real-world datasets prove the significant effectiveness and generalization ability of the proposed method.
+<div align="center">
+<img src="pictures/overview.jpg" width="95%">
 
-<div align="left">
-<img src="pictures/adam.png" width="95%">
-
-Overview of the proposed network. We first extract multi-frame depth cues with cost volume and monocular depth cues using one-hot depth volume. Then, we fuse the two volumes with the proposed cross-cue fusion module (CCF) to yield an improved fused depth feature. The fused depth feature is sent to the depth module for final depth estimation.
+Overview of the proposed network.
 </div>
 
 
@@ -44,18 +43,6 @@ pip install -r requirements.txt
 ```
 
 
-<!-- ## Running the Example Script
-
-We provide a sample from the KITTI Odometry test set and a script to run MonoRec on it in ``example/``. 
-To download the pretrained model and put it into the right place, run ``download_model.sh``. 
-You can manually do this by downloading the weights from [here](https://vision.in.tum.de/_media/research/monorec/monorec_depth_ref.pth.zip) 
-and unpacking the file to ``saved/checkpoints/monorec_depth_ref.pth``.
-The example script will plot the keyframe, depth prediction and mask prediction.
-
-```shell
-cd example
-python test_monorec.py
-``` -->
 
 ## KITTI Odometry Data
 
@@ -110,7 +97,6 @@ We provide KITTI-trained checkpoints of our model:
 | --- | --- | --- |
 | ResNet-18 | 256 x 512  | [Link](https://drive.google.com/file/d/1IhrBx3bj6H26UDxMNvRxF7xC0C9qqI1u/view?usp=sharing) |
 | EfficicentNet-B5 | 256 x 512  | [Link](https://drive.google.com/file/d/1jS1pbCKfYuuoawZ1nnejtGwQV3FhXGcg/view?usp=sharing) |
-<!-- | EfficicentNet-B5 | 352 x 1216  | [Link](https://drive.google.com/file/d/1X8YRA--LBDUNLXTy-snk2_e_L3CUKFWO/view?usp=sharing) | -->
 
 
 The checkpoints can be saved in `./ckpt`. To reproduce the evaluation results in the paper, run the following commands:

@@ -1,5 +1,5 @@
 {
-  "name": "monorec_depth",
+  "name": "dy_multi_depth",
   "n_gpu": 8,
   "arch": {
     "type": "DyMultiDepthModel",

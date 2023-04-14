@@ -1,1 +1,1 @@
-from .loss_functions.monorec_loss import mask_loss, depth_loss, mask_refinement_loss, depth_refinement_loss, depth_aux_mask_loss, silog_loss, silog_vn_loss, silog_vn_loss_update, abs_silog_loss_virtualnormal
+from .loss_functions.dymultidepth_loss import mask_loss, depth_loss, mask_refinement_loss, depth_refinement_loss, depth_aux_mask_loss, silog_loss, silog_vn_loss, silog_vn_loss_update, abs_silog_loss_virtualnormal

@@ -1,5 +1,5 @@
 {
-  "name": "Eval_monorec",
+  "name": "Eval",
   "n_gpu": 8,
   "timestamp_replacement": "00",
   "models": [

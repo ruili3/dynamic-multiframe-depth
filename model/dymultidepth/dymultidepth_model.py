@@ -22,8 +22,6 @@ class DyMultiDepthModel(nn.Module):
                  fusion_type = 'ccf_fusion', input_size=[256, 512], ccf_mid_dim=32, use_img_in_depthnet=True,
                  backbone_type='resnet18'):
         """
-        MonoRec model as described in https://arxiv.org/abs/2011.11814. Additionally to the functionality described in
-        the paper, this implementation also contains several options for different configurations.
         :param inv_depth_min_max: Min / max (inverse) depth. (Default=(0.33, 0.0025))
         :param cv_depth_steps: Number of depth steps for the cost volume. (Default=32)
         :param pretrain_mode: Which pretrain mode to use:
