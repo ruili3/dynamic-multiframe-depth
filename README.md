@@ -18,13 +18,14 @@ This repository is the official implementation of the paper:
 
 If you find our work useful, please consider citing our paper:
 ```
-```
-<!-- @InProceedings{wimbauer2020monorec,
-  title = {{MonoRec}: Semi-Supervised Dense Reconstruction in Dynamic Environments from a Single Moving Camera},
-  author = {Wimbauer, Felix and Yang, Nan and von Stumberg, Lukas and Zeller, Niclas and Cremers, Daniel},
+@InProceedings{li2023learning,
+  title = {Learning to Fuse Monocular and Multi-view Cues for Multi-frame Depth Estimation in Dynamic Scenes},
+  author = {Li, Rui and Gong, Dong and Yin, Wei and Chen, Hao and Zhu, Yu and Wang, Kaixuan and Chen, Xiaozhi and Sun, Jinqiu and Zhang, Yanning},
   booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year = {2021},
-} -->
+  year = {2023},
+}
+```
+
 
 
 
