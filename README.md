@@ -5,7 +5,7 @@ This is the code repository for the paper:
 >
 > Rui Li, [Gong Dong](https://donggong1.github.io/index.html), [Yin Wei](https://yvanyin.net/), [Hao Chen](https://stan-haochen.github.io/), Yu Zhu, Kaixuan Wang, Xiaozhi Chen, Jinqiu Sun and Yanning Zhang
 > 
-> CVPR 2023 [[arXiv]()]
+> **CVPR 2023 [[arXiv]()]**
 
 ![](./pictures/dynamic_depth_result.gif)
 
@@ -55,7 +55,7 @@ We mainly use the KITTI Odometry dataset for training and testing, you can follo
 from [here](https://vision.in.tum.de/_media/research/monorec/poses_dvso.zip) and be placed under ``../data/{kitti_path}/poses_dso``. This folder structure is ensured when unpacking the zip file in the ``{kitti_path}`` directory.
 
 
-4. The dynamic object masks can be downloaded from [here](https://vision.in.tum.de/_media/research/monorec/mvobj_mask.zip). You should unpack the zip file in the ``{kitti_path}`` directory. The data should be put in ``../data/{kitti_path}/sequences/{seq_num}/mvobj_mask``.
+4. The dynamic object masks can be downloaded from [here](https://vision.in.tum.de/_media/research/monorec/mvobj_mask.zip). Unpack the .zip file in the ``{kitti_path}`` directory, the data should be put in ``../data/{kitti_path}/sequences/{seq_num}/mvobj_mask``.
 
 The dataset should be organized as follows:
 ```
@@ -87,7 +87,7 @@ Then run the following command to train the model:
 
 ```shell
 # Here we train our model with ResNet-18 backbone as an example.
-python train.py --config configs\train\train_mr_resnet18.json
+python train.py --config configs/train/train_mr_resnet18.json
 ```
 
 ## Evaluation
@@ -101,7 +101,7 @@ We provide KITTI-trained checkpoints of our model:
 
 The checkpoints can be saved in `./ckpt`. To reproduce the evaluation results in the paper, run the following commands:
 ```shell
-python evaluate.py --config configs\evaluate\eval_mr_resnet18.json
+python evaluate.py --config configs/evaluate/eval_mr_resnet18.json
 ```
 In the `.json` file, set `checkpoint_location` to the model checkpoints path and set `save_dir` to save the evaluation scores. 
 ## Acknowledgements
