@@ -3,9 +3,9 @@
 This is the code repository for the paper:
 > **Learning to Fuse Monocular and Multi-view Cues for Multi-frame Depth Estimation in Dynamic Scenes**
 >
-> Rui Li, [Gong Dong](https://donggong1.github.io/index.html), [Yin Wei](https://yvanyin.net/), [Hao Chen](https://stan-haochen.github.io/), Yu Zhu, Kaixuan Wang, Xiaozhi Chen, Jinqiu Sun and Yanning Zhang
+> [Rui Li](https://ruili3.github.io/), [Gong Dong](https://donggong1.github.io/index.html), [Yin Wei](https://yvanyin.net/), [Hao Chen](https://stan-haochen.github.io/), Yu Zhu, Kaixuan Wang, Xiaozhi Chen, Jinqiu Sun and Yanning Zhang
 > 
-> **CVPR 2023 [[arXiv]()]**
+> **CVPR 2023 [[arXiv](https://arxiv.org/abs/2304.08993)]**
 
 ![](./pictures/dynamic_depth_result.gif)
 
