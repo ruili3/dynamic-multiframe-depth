@@ -11,6 +11,7 @@ from skimage.transform import resize
 from torch.utils.data import Dataset
 
 from utils import map_fn
+import torchvision.transforms.functional as F
 
 
 class KittiOdometryDataset(Dataset):
