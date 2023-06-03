@@ -5,7 +5,7 @@ This is the code repository for the paper:
 >
 > [Rui Li](https://ruili3.github.io/), [Gong Dong](https://donggong1.github.io/index.html), [Yin Wei](https://yvanyin.net/), [Hao Chen](https://stan-haochen.github.io/), Yu Zhu, Kaixuan Wang, Xiaozhi Chen, Jinqiu Sun and Yanning Zhang
 > 
-> **CVPR 2023 [[arXiv](https://arxiv.org/abs/2304.08993)]**
+> **CVPR 2023 [[Project](https://ruili3.github.io/dymultidepth/index.html)] [[arXiv](https://arxiv.org/abs/2304.08993)] [[Video](https://www.youtube.com/watch?v=0ViYXt2bpuM)]**
 
 ![](./pictures/dynamic_depth_result.gif)
 
