@@ -3,7 +3,7 @@
 This is the code repository for the paper:
 > **Learning to Fuse Monocular and Multi-view Cues for Multi-frame Depth Estimation in Dynamic Scenes**
 >
-> [Rui Li](https://ruili3.github.io/), [Gong Dong](https://donggong1.github.io/index.html), [Yin Wei](https://yvanyin.net/), [Hao Chen](https://stan-haochen.github.io/), Yu Zhu, Kaixuan Wang, Xiaozhi Chen, Jinqiu Sun and Yanning Zhang
+> [Rui Li](https://ruili3.github.io/), [Dong Gong](https://donggong1.github.io/index.html), [Yin Wei](https://yvanyin.net/), [Hao Chen](https://stan-haochen.github.io/), Yu Zhu, Kaixuan Wang, Xiaozhi Chen, Jinqiu Sun and Yanning Zhang
 > 
 > **CVPR 2023 [[Project](https://ruili3.github.io/dymultidepth/index.html)] [[arXiv](https://arxiv.org/abs/2304.08993)] [[Video](https://www.youtube.com/watch?v=0ViYXt2bpuM)]**
 
@@ -47,7 +47,7 @@ pip install -r requirements.txt
 
 ## KITTI Odometry Data
 
-We mainly use the KITTI Odometry dataset for training and testing, you can follow the steps below to prepare the dataset. 
+We mainly use the KITTI Odometry dataset for training and testing, and you can follow the steps below to prepare the dataset. 
 
 1. Download the color images and calibration files from the [official website](http://www.cvlibs.net/datasets/kitti/eval_odometry.php). We use the [improved ground truth depth](http://www.cvlibs.net/datasets/kitti/eval_depth_all.php) for training and evaluation. 
 2. Unzip the color images and calibration files into ```../data```. Transfer the initial lidar depth maps to the given format using script ```data_loader/scripts/preprocess_kitti_transfer_gtdepth_to_odom.py```.
